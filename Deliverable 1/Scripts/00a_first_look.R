@@ -4,7 +4,8 @@
 # Run from the folder that holds train.csv and test.csv. Shows results only.
 
 library(tidyverse)
-library(moments)   # skewness()
+
+skewness <- function(x) mean((x - mean(x))^3) / mean((x - mean(x))^2)^1.5
 
 raw_train <- read.csv("train.csv")
 raw_test  <- read.csv("test.csv")

@@ -1,5 +1,5 @@
 # =============================================================================
-# 04_logistic_regression.R
+# 06_logistic_regression.R
 # CSC 3220 Final Project, Team10: Predicting credit card fraud
 #
 # What this script does

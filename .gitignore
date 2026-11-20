@@ -1,0 +1,15 @@
+# Kaggle data: too large for GitHub (train.csv is about 98 MB) and
+# downloaded separately, as the README explains.
+*.csv
+*.zip
+
+# R and RStudio session files
+.Rhistory
+.RData
+.Rproj.user/
+
+# macOS
+.DS_Store
+
+# Plots that Rscript writes when a script is run from the command line
+Rplots.pdf
